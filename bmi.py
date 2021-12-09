@@ -1,7 +1,7 @@
 import streamlit as st
 
-w = st.write_input (input('請輸入體重(KG)？'))
-h = st.write_input (input('請輸入身高(M)？'))
+w = st.write_input ('請輸入體重(KG)？'))
+h = st.write_input ('請輸入身高(M)？'))
 confirm_input = st.button('輸入確認')
 if confirm_input:
     bmi = w/(h*h)
